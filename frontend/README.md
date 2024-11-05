@@ -1,50 +1,55 @@
 This is a Next.js project bootstrapped with create-next-app.
 
-Title Management App
+# Title Management App
 This app enables users to manage titles by adding, editing, and deleting them, provided they have a connected MetaMask wallet. Users can connect their wallet, view their titles, and manage them directly through the app interface.
 
-Getting Started
+### Getting Started
 Clone the Repository
 First, clone the repository to your local machine:
 
-bash
-Copy code
+```
 git clone https://github.com/your-username/your-repo-name.git
-Navigate to the project directory:
+```
+### Navigate to the project directory:
+```
+cd frontend
+```
+### Install Dependencies
 
-bash
-Copy code
-cd your-repo-name
-Install Dependencies
-Next, install the necessary dependencies:
 
-bash
-Copy code
+```
 npm install
-# or
+```
+or
+```
 yarn install
-# or
+```
+or
+```
 pnpm install
-Run the Development Server
-Start the development server:
+```
 
-bash
-Copy code
+### Start the development server:
+```
 npm run dev
-# or
+```
+ or
+```
 yarn dev
-# or
+```
+or
+```
 pnpm dev
-# or
-bun dev
-Open http://localhost:3000 with your browser to see the result.
+```
+
+### Open http://localhost:3000 with your browser to see the result.
 
 You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-MetaMask Wallet Connection
+### MetaMask Wallet Connection
 For full access to title management features, users need to connect their MetaMask wallet. The app verifies the wallet connection and displays the relevant title management options if the wallet is connected.
 
-Learn More
+### Learn More
 To learn more about Next.js, take a look at the following resources:
 
 Next.js Documentation - learn about Next.js features and API.
